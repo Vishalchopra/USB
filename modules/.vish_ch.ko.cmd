@@ -1,0 +1,1 @@
+cmd_/home/vishchopra/Projects/Drivers/USB/vish_ch.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vishchopra/Projects/Drivers/USB/vish_ch.ko /home/vishchopra/Projects/Drivers/USB/vish_ch.o /home/vishchopra/Projects/Drivers/USB/vish_ch.mod.o
