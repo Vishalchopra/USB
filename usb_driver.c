@@ -20,7 +20,7 @@ static struct usb_device_id usb_id[] = {
 };
 struct usb_driver usb_driver = {
 //	.owner = THIS_MODULE,
-        .name = "USB_DRIVER",
+    .name = "USB_DRIVER",
 	.id_table = usb_table,
 };
 
